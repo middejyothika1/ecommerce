@@ -33,6 +33,14 @@ import wireless04 from "../drive-download-20240403T064718Z-001/Images/wireless-0
 import sofaSlide from "../drive-download-20240403T064718Z-001/Images/hero-img.png";
 import watchSlide from "../drive-download-20240403T064718Z-001/Images/watch-07.png";
 
+
+
+import { MdOutlineWallet } from "react-icons/md";
+import { FaCar } from "react-icons/fa";
+import { RiSecurePaymentFill } from "react-icons/ri";
+import { FaHeadphones } from "react-icons/fa";
+
+
 export const SliderData = [
   {
       id: 1,
@@ -62,25 +70,30 @@ export const SliderData = [
 
 export const serviceData = [
   {
-    icon: <ion-icon name="car"></ion-icon>,
+    // icon: <ion-icon name="car"></ion-icon>,
+    icon:<FaCar/>,
+    
     title: "Free Shipping",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#fdefe6",
   },
   {
-    icon: <ion-icon name="card"></ion-icon>,
+    // icon: <ion-icon name="card"></ion-icon>,
+    icon:<MdOutlineWallet/>,
     title: "Safe Payment",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#ceebe9",
   },
   {
-    icon: <ion-icon name="shield-half-outline"></ion-icon>,
+    // icon: <ion-icon name="shield-half-outline"></ion-icon>,
+    icon:<RiSecurePaymentFill />,
     title: "Secure Payment",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#e2f2b2",
   },
   {
-    icon: <ion-icon name="headset"></ion-icon>,
+    // icon: <ion-icon name="headset"></ion-icon>,
+    icon:<FaHeadphones />,
     title: " Back Guarantee",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#d6e5fb",

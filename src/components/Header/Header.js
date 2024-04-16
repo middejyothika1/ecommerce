@@ -14,7 +14,7 @@ const Header=()=>{
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link to="/Home" class="nav-link active" aria-current="page" >Home</Link>
+                            <Link to="/" class="nav-link active" aria-current="page" >Home</Link>
                         </li>
                         <li class="nav-item">
                             <Link to="/Shop" class="nav-link active" aria-current="page" >shop</Link>
@@ -26,7 +26,7 @@ const Header=()=>{
                             <Link to="/User" class="nav-link active" aria-current="page" ><User/></Link>
                         </li>
                         <li class="nav-item">
-                            <Link to="/Cart" class="nav-link active" aria-current="page" ><ShoppingCart/></Link>
+                            <Link to="/Cart" class="nav-link active" aria-current="page" ><ShoppingCart /></Link>
                         </li>
                     </ul>
                 </div>
